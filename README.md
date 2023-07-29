@@ -6,7 +6,7 @@ This script is under development
 
 ### Download | Linux |
 
-> Download the requirements.txt
+> Download the requirements.sh
 
 ```sh
   git clone IP_List_ruby
