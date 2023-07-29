@@ -26,11 +26,14 @@ This script is under development
 
 ### Download | Windows |
 
+Install the requirementes
+
 ```sh
   gem install colorize
   gem install os
   gem install time
 ```
+Download
 
 ```sh
   git clone IP_List_rub
