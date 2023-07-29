@@ -9,6 +9,14 @@ This script is under development
 > Download the requirements.sh
 
 ```sh
+  chmod +X requirements.sh
+```
+
+```sh
+  bash ./requirements.sh
+```
+
+```sh
   git clone IP_List_ruby
 ```
 
