@@ -17,7 +17,7 @@ This script is under development
 ```
 
 ```sh
-  git clone IP_List_ruby
+   git clone https://github.com/suchsoak/IP_List_Ruby.git
 ```
 
 ```sh
