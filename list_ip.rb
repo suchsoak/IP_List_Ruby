@@ -40,7 +40,7 @@ def scan_ips(start_ip, end_ip, port_list)
     port_list.each do |port|
     begin
         socket = TCPSocket.new(ips.to_s, port)
-        puts "ip : |#{ips}| \t |#{port}|".colorize(:green)
+        puts "|#{ips}| \t |#{port}|".colorize(:green)
       rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, IO::TimeoutError, IPAddr::InvalidAddressError
       rescue Interrupt
         puts "\nScript Interrupt".colorize(:red)
@@ -81,7 +81,7 @@ def scan_ips(start_ip, end_ip, port_list)
     port_list.each do |port|
     begin
         socket = TCPSocket.new(ips.to_s, port)
-        puts "ip : |#{ips}| \t |#{port}|".colorize(:green)
+        puts "|#{ips}| \t |#{port}|".colorize(:green)
         rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, IO::TimeoutError, IPAddr::InvalidAddressError
         rescue Interrupt
         puts "\nScript Interrupt".colorize(:red)
