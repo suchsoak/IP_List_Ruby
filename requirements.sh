@@ -9,7 +9,7 @@ if gem install colorize os time; then
         echo
         echo
         clear
-        echo "Installed!"
+        echo "Colorize, os and time Installed!"
     else
         echo "error!"
 
