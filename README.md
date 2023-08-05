@@ -52,7 +52,7 @@ or
 Put the first ip
 
 ```sh
-  000.000.0.01
+  000.000.0.1
 ```
 
 Then, the final ip
