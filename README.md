@@ -60,7 +60,7 @@ Then, the final ip
 ```sh
   000.000.0.255
 ```
-After the script will print
+Then the script will be printed
 
 ```sh
   IP | PORT
