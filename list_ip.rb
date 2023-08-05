@@ -74,7 +74,7 @@ puts "Final IP: #{IP_2}".colorize(:red)
 puts "------------"
 sleep(5)
 
-system("cls")
+system("clear")
 
 def scan_ips(start_ip, end_ip, port_list)
     (IPAddr.new(start_ip)..IPAddr.new(end_ip)).each do |ips|
