@@ -36,7 +36,7 @@ Install the requirementes
 Download
 
 ```sh
-  git clone IP_List_rub
+  git clone https://github.com/suchsoak/IP_List_Ruby.git
 ```
 or 
 
