@@ -60,6 +60,11 @@ Then, the final ip
 ```sh
   000.000.0.255
 ```
+After the script will print
+
+```sh
+  IP | PORT
+```
 
 ### The script is being developed.
 
