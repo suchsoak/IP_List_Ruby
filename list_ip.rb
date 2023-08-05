@@ -35,20 +35,11 @@ sleep(5)
 
 system("cls")
 
-# if system("ping -n 2 #{IP}")
-#     puts
-
-# else 
-#     puts
-#     puts "Algo de errado!"
-# end
-
 def scan_ips(start_ip, end_ip, port_list)
     (IPAddr.new(start_ip)..IPAddr.new(end_ip)).each do |ips|
     port_list.each do |port|
     begin
         socket = TCPSocket.new(ips.to_s, port)
-        # service = Socket.getnameinfo(ips.to_s, port)
         puts "ip : |#{ips}| \t |#{port}|".colorize(:green)
       rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, IO::TimeoutError, IPAddr::InvalidAddressError
       rescue Interrupt
@@ -67,7 +58,7 @@ puts
 scan_ips(IP, IP_2, port_list)
 
 elsif OS.linux?
-    puts "------------"
+puts "------------"
 puts "Put The IP"
 puts
 IP = gets.chomp
@@ -85,23 +76,14 @@ sleep(5)
 
 system("cls")
 
-# if system("ping -n 2 #{IP}")
-#     puts
-
-# else 
-#     puts
-#     puts "Algo de errado!"
-# end
-
 def scan_ips(start_ip, end_ip, port_list)
     (IPAddr.new(start_ip)..IPAddr.new(end_ip)).each do |ips|
     port_list.each do |port|
     begin
         socket = TCPSocket.new(ips.to_s, port)
-        # service = Socket.getnameinfo(ips.to_s, port)
         puts "ip : |#{ips}| \t |#{port}|".colorize(:green)
-      rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, IO::TimeoutError, IPAddr::InvalidAddressError
-      rescue Interrupt
+        rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, IO::TimeoutError, IPAddr::InvalidAddressError
+        rescue Interrupt
         puts "\nScript Interrupt".colorize(:red)
         exit 
             end
@@ -114,6 +96,7 @@ port_list = [1, 21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445, 993, 995]
 
 puts 
 
+scan_ips(IP, IP_2, port_list)
 else 
-    puts "Sistema operacional não suportado!"
+    puts "Operating system does not support!"
 end
