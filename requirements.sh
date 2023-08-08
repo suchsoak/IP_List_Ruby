@@ -4,7 +4,7 @@ echo
 
 sleep 3 > /dev/null
 
-if gem install colorize os time; then
+if sudo gem install colorize os time; then
         echo "Colorize, os and time"
         echo
         echo
