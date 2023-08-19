@@ -9,15 +9,15 @@ This script is under development
 > Download the requirements.sh
 
 ```sh
+   git clone https://github.com/suchsoak/IP_List_Ruby.git
+```
+
+```sh
   chmod +X requirements.sh
 ```
 
 ```sh
   bash ./requirements.sh
-```
-
-```sh
-   git clone https://github.com/suchsoak/IP_List_Ruby.git
 ```
 
 ```sh
