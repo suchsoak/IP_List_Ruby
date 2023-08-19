@@ -38,15 +38,17 @@ Download
 ```sh
   git clone https://github.com/suchsoak/IP_List_Ruby.git
 ```
+
+```sh
+  ruby list_ip.rb
+```
+
 or 
 
 ```sh
   Install the file zip
 ```
 
-```sh
-  ruby list_ip.rb
-```
 ### How use 
 
 Put the first ip
