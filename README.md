@@ -49,7 +49,7 @@ or
   Install the file zip
 ```
 
-### How use 
+### How to use 
 
 Put the first ip
 
