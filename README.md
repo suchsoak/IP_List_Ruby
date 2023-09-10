@@ -1,6 +1,6 @@
 # IP_List_Ruby
 
-Shows the IPs that are connected to the WiFi network
+Shows active IPs that are connected to the WiFi network
 
 This script is under development
 
