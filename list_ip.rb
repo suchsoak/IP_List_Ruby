@@ -91,8 +91,8 @@ def scan_ips(start_ip, end_ip, port_list)
     end
 end
 
-port_list = [1, 21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445, 993, 995] 
-#port_list = 1..65535 
+#port_list = [1, 21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445, 993, 995] 
+port_list = 1..65535 
 
 puts 
 
