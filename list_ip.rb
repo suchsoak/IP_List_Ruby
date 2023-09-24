@@ -6,15 +6,19 @@ require 'time'
 puts
 puts
 
+puts '''
 
-puts "┏━━┓━━━┓".colorize(:blue)
-puts "┗┫┣┛┏━┓┃".colorize(:blue)
-puts "┃┃┃┃┗━┛┃".colorize(:blue)
-puts "┃┃┃┃┏━━┛".colorize(:blue)
-puts "┏┫┣┓┃┃┃┃".colorize(:blue)
-puts "┗━━┛┛┃┃┃".colorize(:blue)
-puts "┃┃┃┃┃┃┃┃".colorize(:blue)
+                ▄▄▄ ▄▄▄▄▄▄▄    ▄▄▄     ▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ 
+                █   █       █  █   █   █   █       █       █
+                █   █    ▄  █  █   █   █   █  ▄▄▄▄▄█▄     ▄█
+                █   █   █▄█ █  █   █   █   █ █▄▄▄▄▄  █   █  
+                █   █    ▄▄▄█  █   █▄▄▄█   █▄▄▄▄▄  █ █   █  
+                █   █   █      █       █   █▄▄▄▄▄█ █ █   █  
+                █▄▄▄█▄▄▄█      █▄▄▄▄▄▄▄█▄▄▄█▄▄▄▄▄▄▄█ █▄▄▄█  
 
+                ∼∼https://github.com/suchsoak/IP_List_Ruby∼∼
+
+''' .colorize(:blue)
 
 if OS.windows?
 puts "------------"
