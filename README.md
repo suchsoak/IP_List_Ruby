@@ -6,7 +6,7 @@ This script is under development
 
 # Download 
 
-> Download the requirements.sh
+> Download the requirements.txt
 
 ```sh
    git clone https://github.com/suchsoak/IP_List_Ruby.git
