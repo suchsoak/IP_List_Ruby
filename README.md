@@ -4,7 +4,7 @@ Shows active IPs that are connected to the WiFi network
 
 This script is under development
 
-### Download | Linux |
+# Download 
 
 > Download the requirements.sh
 
@@ -24,32 +24,7 @@ This script is under development
   ruby list_ip.rb
 ```
 
-### Download | Windows |
-
-Install the requirementes
-
-```sh
-  gem install colorize
-  gem install os
-  gem install time
-```
-Download
-
-```sh
-  git clone https://github.com/suchsoak/IP_List_Ruby.git
-```
-
-```sh
-  ruby list_ip.rb
-```
-
-or 
-
-```sh
-  Install the file zip
-```
-
-### How to use 
+# Usage
 
 Put the first ip
 
@@ -67,8 +42,6 @@ Then the script will be printed
 ```sh
   IP | PORT
 ```
-
-### The script is being developed.
 
 | Libraries |  Links |
 | ------ | ------ |
