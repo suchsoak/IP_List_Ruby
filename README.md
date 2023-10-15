@@ -13,14 +13,6 @@ This script is under development
 ```
 
 ```sh
-  chmod +X requirements.sh
-```
-
-```sh
-  bash ./requirements.sh
-```
-
-```sh
   ruby list_ip.rb
 ```
 
