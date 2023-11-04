@@ -1,28 +1,27 @@
-name: Ruby
+name: gem up
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-permissions:
-  contents: read
-
+ push:
+   branches:
+     - main
+     
 jobs:
-  test:
+ update-repo:
+   runs-on: ubuntu-latest
 
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ruby-version: ['2.6', '2.7', '3.0']
+   steps:
+   - name: Checkout repository
+     uses: actions/checkout@v2
 
-    steps:
-    - uses: actions/checkout@v3
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf 
-      with:
-        ruby-version: ${{ matrix.ruby-version }}
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - name: Run tests
-      run: ruby list.ip.rb
+   - name: Set up Ruby
+     uses: ruby/setup-ruby@v1
+     with:
+       ruby-version: 3.0.2
+
+   - name: Install dependencies
+     run: |
+       gem install colorize time ipaddr
+
+   - name: Run tests
+     run: |
+       bundle exec rspec
