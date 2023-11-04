@@ -18,7 +18,6 @@ puts '''
                   suchsoak
                 ~~v:1.0.3~~
 
-
 ''' .colorize(:blue)
 
 puts
@@ -44,7 +43,8 @@ def scan_ips(start_ip, end_ip, port_list)
     begin
         socket = TCPSocket.new(ips.to_s, port)
         service = get_service_name(port)
-        puts "\t\t\t\t\t", "|#{ips}| \t |#{port}" "\t #{service}|".colorize(:green)
+        prot = socket.peeraddr[0]
+        puts "\t\t\t\t\t", "|#{ips}| \t |#{port}" "\t #{service}|" "\t |#{prot}|".colorize(:green)
         rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH, IO::TimeoutError, IPAddr::InvalidAddressError
         rescue Interrupt
         puts "\nScript Interrupt".colorize(:red)
