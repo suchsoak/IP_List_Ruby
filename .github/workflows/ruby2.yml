@@ -1,0 +1,31 @@
+jobs:
+build:
+   runs-on: ${{ matrix.os }}
+
+   strategy:
+     matrix:
+       os: [ubuntu-latest, macos-latest, windows-latest]
+
+   steps:
+   - name: Checkout repository
+     uses: actions/checkout@v2
+
+   - name: Set up Ruby
+     uses: ruby/setup-ruby@v1
+     with:
+       ruby-version: 3.0.2
+
+   - name: Install dependencies
+     run: |
+       gem install colorize time ipaddr
+
+   - name: Run tests
+     run: bundle exec rspec
+
+- name: Generate code coverage report
+     run: bundle exec rspec --format RspecJunitFormatter --out rspec_junit_results.xml && ruby ../report_generator/generate_report.rb
+
+- name: Checkout repository
+   uses: actions/checkout@v2
+   with:
+     repository: suchsoak/IP_List_Ruby
