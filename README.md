@@ -4,6 +4,22 @@ Shows active IPs that are connected to the WiFi network
 
 This script is under development
 
+```sh
+
+▄▄▄ ▄▄▄▄▄▄▄    ▄▄▄     ▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄
+█   █       █  █   █   █   █       █       █
+█   █    ▄  █  █   █   █   █  ▄▄▄▄▄█▄     ▄█
+█   █   █▄█ █  █   █   █   █ █▄▄▄▄▄  █   █
+█   █    ▄▄▄█  █   █▄▄▄█   █▄▄▄▄▄  █ █   █
+█   █   █      █       █   █▄▄▄▄▄█ █ █   █
+█▄▄▄█▄▄▄█      █▄▄▄▄▄▄▄█▄▄▄█▄▄▄▄▄▄▄█ █▄▄▄█
+
+∼∼https://github.com/suchsoak/IP_List_Ruby∼∼
+                  suchsoak
+                ~~v:1.0.3~~
+
+```
+
 # Download 
 
 > Download the requirements.txt
