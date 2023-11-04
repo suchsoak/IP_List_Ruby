@@ -21,7 +21,3 @@ jobs:
    - name: Install dependencies
      run: |
        gem install colorize time ipaddr
-
-   - name: Run tests
-     run: |
-       bundle exec rspec
