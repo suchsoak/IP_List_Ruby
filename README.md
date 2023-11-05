@@ -2,7 +2,7 @@
 
 Shows active IPs that are connected to the WiFi network
 
-This script is under development
+**This script is under development**
 
 ```sh
 
@@ -34,21 +34,27 @@ This script is under development
 
 # Usage
 
-Put the first ip
+**Put the first ip**
 
 ```sh
   000.000.0.1
 ```
 
-Then, the final ip
+**Then, the final ip**
 
 ```sh
   000.000.0.255
 ```
-Then the script will be printed
+**Then the script will be printed**
+
+Exaple
 
 ```sh
-  IP | PORT
+  |127.0.0.1|    |22  SSH| |AF_INET|
+```
+
+```sh
+  |IP| |PORT SERVICE| |PROTOCOL|
 ```
 
 | Libraries |  Links |
