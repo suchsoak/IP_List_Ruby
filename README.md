@@ -2,8 +2,6 @@
 
 Shows active IPs that are connected to the WiFi network
 
-**This script is under development**
-
 ```sh
 
 ▄▄▄ ▄▄▄▄▄▄▄    ▄▄▄     ▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄
@@ -21,7 +19,7 @@ Shows active IPs that are connected to the WiFi network
 ```
 
 # Download 
-
+>[!IMPORTANT]
 > Download the requirements.txt
 
 ```sh
@@ -29,7 +27,7 @@ Shows active IPs that are connected to the WiFi network
 ```
 
 ```sh
-  ruby list_ip.rb
+   ruby list_ip.rb
 ```
 
 # Usage
@@ -45,9 +43,8 @@ Shows active IPs that are connected to the WiFi network
 ```sh
   000.000.0.255
 ```
-**Then the script will be printed**
 
-Example
+**Then the script will be printed**
 
 ```sh
   |127.0.0.1|    |22  SSH| |AF_INET|
