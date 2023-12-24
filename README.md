@@ -47,7 +47,7 @@ Shows active IPs that are connected to the WiFi network
 ```
 **Then the script will be printed**
 
-Exaple
+Example
 
 ```sh
   |127.0.0.1|    |22  SSH| |AF_INET|
